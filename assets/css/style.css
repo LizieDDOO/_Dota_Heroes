@@ -1,0 +1,165 @@
+
+html{
+	background: url(https://j.gifs.com/58Jvgx.gif) center center fixed;
+	background-size: cover;
+}
+
+.headerColumn {
+	text-align: center;
+	opacity: .9;
+	font-family: KoreanFont,georgia,serif;
+	color:#c4c0c0;
+	font-size:60px;
+	background: #0F0303;
+}
+
+.columns{
+	text-align: center;
+	color: white;
+	opacity: .9;
+}
+
+p{
+	background: #0F0303;
+}
+
+.item {
+	border: solid 2px transparent;
+	width: 60px;
+	border: 2px solid red;
+	
+}
+
+.item:hover {
+	border-color: rgb(0, 252, 34);
+}
+
+#strength{
+	font-family: KoreanFont,georgia,serif;
+	color:#c4c0c0;
+	font-size:24px;
+}
+
+#agility{
+	font-family: KoreanFont,georgia,serif;
+	color:#c4c0c0;
+	font-size:24px;
+}
+
+#intelligence{
+	font-family: KoreanFont,georgia,serif;
+	color:#c4c0c0;
+	font-size:24px;
+}
+ 
+#str-div img, #agi-div img, #int-div img{
+	float: left;
+	margin: 5px;
+
+}
+
+
+
+#name, #stats, #youtube{
+	float: left;
+}
+
+#youtube{
+	margin-left: 40px;
+	position: relative;
+}
+
+#image{
+	float: left;
+	clear: left;
+}
+
+#name{
+	margin-left: 40px;
+	font-family: KoreanFont,georgia,serif;
+	color:#c4c0c0;
+	font-size:35px;
+	width: 100%;
+}
+
+#image img{
+	width: 100%;
+	margin-left: 30px;
+}
+
+#stats{
+	margin-left: 30px;
+	font-family: KoreanFont,georgia,serif;
+	color:#c4c0c0;
+	font-size:15px;
+	background: #0F0303;
+	padding:20px;
+	overflow: auto;
+}
+
+
+#footer{
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    background: #0F0303;
+    padding: 24px;
+    font-size: 12px;
+    color: #CCC;
+    text-align: center;
+}
+
+
+* {
+	box-sizing: border-box;
+  }
+  
+  ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+  }
+  
+  li {
+	margin: 0px;
+	padding: 0px;
+  }
+  
+  a {
+	cursor: pointer;
+  }
+  
+  .filters li {
+	display: inline-block;
+	padding: 5px 10px;
+  }
+  
+  .filters li.active a {
+	color: #f00;
+  }
+  
+  .products:after {
+	content: '';
+	display: block;
+	clear: both;
+  }
+  
+  .products li {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 0 10px 10px 0;
+	background: #ccc;
+  }
+ 
+
+
+  .photo{
+	width: 90px;
+	height: 50px;
+	transition: 0.5s;
+  }
+
+  .photo:hover{
+	transform: scale(2.1);
+  }
